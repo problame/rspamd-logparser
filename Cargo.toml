@@ -1,0 +1,13 @@
+[package]
+name = "rspamd-logparser"
+version = "0.1.0"
+authors = ["Christian Schwarz <me@cschwarz.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+failure = "*"
+lazy_static = "1.2"
+log = "*"
+env_logger = "*"
+linefeed = "0.5"
